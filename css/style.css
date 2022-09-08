@@ -66,3 +66,32 @@ img {
 }
 
 /* #endregion main */
+
+/* #region footer */
+
+.grid {
+    display: grid;
+}
+
+.video_audio {
+    display: flex;
+}
+
+.and {
+    padding: 0.5rem 0.5rem;
+}
+
+.fa-microphone {
+    padding: 0.3rem 0 0.3rem 0.2rem ;
+}
+
+.fa-video {
+    padding: 0.3rem 0 0.3rem 1rem ;
+}
+
+.text_footer {
+    font-size: x-small;
+}
+
+
+/* #endregion footer */
