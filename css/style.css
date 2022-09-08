@@ -138,7 +138,25 @@ footer {
 }
 
 .quit {
-    
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: red;
 }
 
+.end {
+    padding: 0rem 1rem;
+}
+
+.end:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+i:hover {
+    cursor: pointer;
+    scale: 1.2;
+    opacity: 0.7;
+}
 /* #endregion footer */
