@@ -1,0 +1,53 @@
+/* #region utility */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex_column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.col_2 {
+    width: calc( (100% / 14) * 2);
+}
+
+
+.bg {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img {
+    height: 97%;
+    max-width: 97%;
+}
+.badge {
+    width: 170px;
+    background-color: blue;
+    height: 20px;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+/* #endregion utility */
